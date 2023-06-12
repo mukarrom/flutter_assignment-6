@@ -81,30 +81,31 @@ class MyAssignmentSix extends StatelessWidget {
             spacing: 8,
             runSpacing: 8,
             children: [
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.all(0),
-                ),
+              OutlinedButton(
+                style: OutlinedButton.styleFrom(
+                    padding: const EdgeInsets.all(0),
+                    side: const BorderSide(color: Colors.grey, width: 4)),
                 onPressed: () {
                   mySnackBar('Clicked on photo', context);
                 },
                 child: SizedBox(
                   width: MediaQuery.of(context).size.width / 3 - 12,
                   child: Card(
-                    child: Column(
+                    child: Stack(
+                      alignment: AlignmentDirectional.bottomCenter,
                       children: [
                         Image.network(
                           'https://images.unsplash.com/photo-1595356700395-6f14b5c1f33f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
                           fit: BoxFit.cover,
                         ),
                         const Padding(
-                          padding: EdgeInsets.all(16.0),
+                          padding: EdgeInsets.all(8.0),
                           child: Text(
                             'Caption',
                             style: TextStyle(
-                              fontSize: 16.0,
-                              fontWeight: FontWeight.bold,
-                            ),
+                                fontSize: 16.0,
+                                color: Colors.white,
+                                backgroundColor: Colors.lightBlue),
                           ),
                         ),
                       ],
@@ -112,30 +113,31 @@ class MyAssignmentSix extends StatelessWidget {
                   ),
                 ),
               ),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.all(0),
-                ),
+              OutlinedButton(
+                style: OutlinedButton.styleFrom(
+                    padding: const EdgeInsets.all(0),
+                    side: const BorderSide(color: Colors.grey, width: 4)),
                 onPressed: () {
                   mySnackBar('Clicked on photo', context);
                 },
                 child: SizedBox(
                   width: MediaQuery.of(context).size.width / 3 - 12,
                   child: Card(
-                    child: Column(
+                    child: Stack(
+                      alignment: AlignmentDirectional.bottomCenter,
                       children: [
                         Image.network(
                           'https://images.unsplash.com/photo-1595356700395-6f14b5c1f33f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
                           fit: BoxFit.cover,
                         ),
                         const Padding(
-                          padding: EdgeInsets.all(16),
+                          padding: EdgeInsets.all(8.0),
                           child: Text(
                             'Caption',
                             style: TextStyle(
-                              fontSize: 16.0,
-                              fontWeight: FontWeight.bold,
-                            ),
+                                fontSize: 16.0,
+                                color: Colors.white,
+                                backgroundColor: Colors.lightBlue),
                           ),
                         ),
                       ],
@@ -143,30 +145,31 @@ class MyAssignmentSix extends StatelessWidget {
                   ),
                 ),
               ),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.all(0),
-                ),
+              OutlinedButton(
+                style: OutlinedButton.styleFrom(
+                    padding: const EdgeInsets.all(0),
+                    side: const BorderSide(color: Colors.grey, width: 4)),
                 onPressed: () {
                   mySnackBar('Clicked on photo', context);
                 },
                 child: SizedBox(
                   width: MediaQuery.of(context).size.width / 3 - 12,
                   child: Card(
-                    child: Column(
+                    child: Stack(
+                      alignment: AlignmentDirectional.bottomCenter,
                       children: [
                         Image.network(
                           'https://images.unsplash.com/photo-1595356700395-6f14b5c1f33f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
                           fit: BoxFit.cover,
                         ),
                         const Padding(
-                          padding: EdgeInsets.all(16),
+                          padding: EdgeInsets.all(8.0),
                           child: Text(
                             'Caption',
                             style: TextStyle(
-                              fontSize: 16.0,
-                              fontWeight: FontWeight.bold,
-                            ),
+                                fontSize: 16.0,
+                                color: Colors.white,
+                                backgroundColor: Colors.lightBlue),
                           ),
                         ),
                       ],
@@ -174,30 +177,31 @@ class MyAssignmentSix extends StatelessWidget {
                   ),
                 ),
               ),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.all(0),
-                ),
+              OutlinedButton(
+                style: OutlinedButton.styleFrom(
+                    padding: const EdgeInsets.all(0),
+                    side: const BorderSide(color: Colors.grey, width: 4)),
                 onPressed: () {
                   mySnackBar('Clicked on photo', context);
                 },
                 child: SizedBox(
                   width: MediaQuery.of(context).size.width / 3 - 12,
                   child: Card(
-                    child: Column(
+                    child: Stack(
+                      alignment: AlignmentDirectional.bottomCenter,
                       children: [
                         Image.network(
                           'https://images.unsplash.com/photo-1595356700395-6f14b5c1f33f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
                           fit: BoxFit.cover,
                         ),
                         const Padding(
-                          padding: EdgeInsets.all(16),
+                          padding: EdgeInsets.all(8.0),
                           child: Text(
                             'Caption',
                             style: TextStyle(
-                              fontSize: 16.0,
-                              fontWeight: FontWeight.bold,
-                            ),
+                                fontSize: 16.0,
+                                color: Colors.white,
+                                backgroundColor: Colors.lightBlue),
                           ),
                         ),
                       ],
@@ -205,30 +209,31 @@ class MyAssignmentSix extends StatelessWidget {
                   ),
                 ),
               ),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.all(0),
-                ),
+              OutlinedButton(
+                style: OutlinedButton.styleFrom(
+                    padding: const EdgeInsets.all(0),
+                    side: const BorderSide(color: Colors.grey, width: 4)),
                 onPressed: () {
                   mySnackBar('Clicked on photo', context);
                 },
                 child: SizedBox(
                   width: MediaQuery.of(context).size.width / 3 - 12,
                   child: Card(
-                    child: Column(
+                    child: Stack(
+                      alignment: AlignmentDirectional.bottomCenter,
                       children: [
                         Image.network(
                           'https://images.unsplash.com/photo-1595356700395-6f14b5c1f33f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
                           fit: BoxFit.cover,
                         ),
                         const Padding(
-                          padding: EdgeInsets.all(16),
+                          padding: EdgeInsets.all(8.0),
                           child: Text(
                             'Caption',
                             style: TextStyle(
-                              fontSize: 16.0,
-                              fontWeight: FontWeight.bold,
-                            ),
+                                fontSize: 16.0,
+                                color: Colors.white,
+                                backgroundColor: Colors.lightBlue),
                           ),
                         ),
                       ],
@@ -236,30 +241,31 @@ class MyAssignmentSix extends StatelessWidget {
                   ),
                 ),
               ),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.all(0),
-                ),
+              OutlinedButton(
+                style: OutlinedButton.styleFrom(
+                    padding: const EdgeInsets.all(0),
+                    side: const BorderSide(color: Colors.grey, width: 4)),
                 onPressed: () {
                   mySnackBar('Clicked on photo', context);
                 },
                 child: SizedBox(
                   width: MediaQuery.of(context).size.width / 3 - 12,
                   child: Card(
-                    child: Column(
+                    child: Stack(
+                      alignment: AlignmentDirectional.bottomCenter,
                       children: [
                         Image.network(
                           'https://images.unsplash.com/photo-1595356700395-6f14b5c1f33f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
                           fit: BoxFit.cover,
                         ),
                         const Padding(
-                          padding: EdgeInsets.all(16),
+                          padding: EdgeInsets.all(8.0),
                           child: Text(
                             'Caption',
                             style: TextStyle(
-                              fontSize: 16.0,
-                              fontWeight: FontWeight.bold,
-                            ),
+                                fontSize: 16.0,
+                                color: Colors.white,
+                                backgroundColor: Colors.lightBlue),
                           ),
                         ),
                       ],
@@ -269,20 +275,23 @@ class MyAssignmentSix extends StatelessWidget {
               )
             ],
           ),
-          const ListTile(
-            leading: Icon(Icons.image),
-            title: Text('Sample Photo 1'),
-            subtitle: Text('Category 1'),
+          ListTile(
+            leading: Image.network(
+                'https://images.unsplash.com/photo-1518534135864-c8fccda20aaa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'),
+            title: const Text('Sample Photo 1'),
+            subtitle: const Text('Category 1'),
           ),
-          const ListTile(
-            leading: Icon(Icons.image),
-            title: Text('Sample Photo 1'),
-            subtitle: Text('Category 1'),
+          ListTile(
+            leading: Image.network(
+                'https://images.unsplash.com/photo-1518534135864-c8fccda20aaa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'),
+            title: const Text('Sample Photo 2'),
+            subtitle: const Text('Category 2'),
           ),
-          const ListTile(
-            leading: Icon(Icons.image),
-            title: Text('Sample Photo 1'),
-            subtitle: Text('Category 1'),
+          ListTile(
+            leading: Image.network(
+                'https://images.unsplash.com/photo-1518534135864-c8fccda20aaa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'),
+            title: const Text('Sample Photo 3'),
+            subtitle: const Text('Category 3'),
           ),
         ],
       ),
