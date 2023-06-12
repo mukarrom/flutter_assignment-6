@@ -1,5 +1,7 @@
 # assignment_module_6
 
+![My App](https://github.com/mukarrom/flutter_assignment-6.png?raw=true)
+
 A new Flutter project.
 
 ## Getting Started
