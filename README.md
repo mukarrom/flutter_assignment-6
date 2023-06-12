@@ -1,6 +1,6 @@
 # assignment_module_6
 
-![My App](https://github.com/mukarrom/flutter_assignment-6/assignment.png)
+![My App](assignment.png?raw=true)
 
 A new Flutter project.
 
